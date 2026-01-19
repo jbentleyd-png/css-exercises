@@ -1,27 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
 }
 
 .card {
-  width: 400px;
+  width: 400px; /* probably need to add height for the total? */
+  height: auto;
   background: #fff;
   margin: 16px auto;
+  padding: 20px 10px 10px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0 0 10px;
+  padding: 5px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 0 0 10px;
+  padding: 15px 5px;
 }
 
 .button-container {
+  width: auto; /*not working */
+  margin: 0 auto; /*not working */
   background: #e3f4ff;
+  padding: 10px 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block; /* puts button on its own line */
+  padding: 10px 25px; /* this creates the size of the button */
+  margin: 0 auto; /*centered */
 }
