@@ -31,8 +31,9 @@ body {
 }
 
 .button-container {
-  width: auto; /*not working */
-  margin: 0 auto; /*not working */
+  /* margin: 0 auto; not working to center contents*/
+  text-align: center; /* this is how you actually do that. */
+
   background: #e3f4ff;
   padding: 10px 10px;
 }
@@ -42,5 +43,5 @@ button {
   border: 1px solid #eee;
   display: block; /* puts button on its own line */
   padding: 10px 25px; /* this creates the size of the button */
-  margin: 0 auto; /*centered */
+  margin: 5px auto 0; /*centered */
 }
