@@ -63,6 +63,9 @@ a {
   border-radius: 4px;
   flex-wrap: nowrap; /* I THINK we have to do this, since text is not changing within the different-sized bozes, but it might just be an explicit width declaratiion thing*/
   width: 300px; /*interesting...*/
+  height: 175px;
+  margin: 15px;
+  padding: 2%;
 }
 
 .footer {
