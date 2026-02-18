@@ -56,11 +56,11 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  margin: auto, 20px; /*Doesn't seem to do what I want it to...*/
-  justify-content: space-between; /*Doesn't seem to do what I want it to...*/
+  margin: 20px 5px;
 }
 
 ul {
   display: flex;
   list-style-type: none;
+  padding-inline-start: 20px;
 }
