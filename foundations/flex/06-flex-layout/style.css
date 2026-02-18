@@ -22,15 +22,24 @@ body {
 
 .left-links {
   display: flex;
+  padding-inline-start: 15px;
+  gap: 15px; /*set these two equal for easy math. Margins don't collapse in flex or grid.*/
 }
 
 .right-links {
   display: flex;
+  padding-inline-end: 15px;
+  gap: 15px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
-  margin: auto 10px;
-  /* might need tro do something about the edges of the screen, but let's wory about clearing the default formatting first.*/
+  /*handle spacing within the parent div*/
+  text-decoration: none;
+  color: rgb(113, 103, 103);
 }
 
 /* MIDDLE */
