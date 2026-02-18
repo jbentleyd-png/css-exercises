@@ -1,10 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+/* TOP AND BOTTOM */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  /* How do we make it drop to the bottom of the screen? */
+}
+
+.left-links {
+  display: flex;
+}
+
+.right-links {
+  display: flex;
+}
+
+a {
+  margin: auto 10px;
+  /* might need tro do something about the edges of the screen, but let's wory about clearing the default formatting first.*/
+}
+
+/* MIDDLE */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -16,6 +50,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 15px;
 }
 
 input {
@@ -23,4 +58,5 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 15px;
 }
