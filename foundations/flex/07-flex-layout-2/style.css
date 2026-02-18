@@ -45,10 +45,24 @@ a {
   text-decoration: none;
   color: #eee;
 }
+
+/*CARDS*/
+
+.card-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; /*This appears not to be working*/
+  /* is there a way to make it divide them into two rows of equal halves consistently?*/
+  flex-wrap: wrap;
+  padding: 48px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  flex-wrap: nowrap; /* I THINK we have to do this, since text is not changing within the different-sized bozes, but it might just be an explicit width declaratiion thing*/
+  width: 300px; /*interesting...*/
 }
 
 .footer {
